@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+/*Google Fonts Link*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+/*Variables Declaration*/
+:root {
+  --Background-Color: #ffffff;
+  --Heading-Color: #595758;
+  --SubHeading-Color: #aaa8c0;
+  --Button-Color: #fa6a58;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--Background-Color);
+}
+.Container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.Top-Showcase-Row {
+  background-image: url(../Assets/top-banner.png);
+  background-repeat: no-repeat;
+  padding: 65px 0;
+}
+.Content-Row {
+  overflow: hidden;
+}
+.Left-Content-Col {
+  float: left;
+  width: 49%;
+  margin: 60px 68px 0 0;
+}
+.Left-Content-Col h2 {
+  text-transform: capitalize;
+  font-size: 42px;
+  letter-spacing: 2px;
+  color: var(--Button-Color);
+  margin-bottom: 10px;
+}
+.Left-Content-Col h1 {
+  text-transform: uppercase;
+  font-size: 45px;
+  color: var(--Heading-Color);
+  margin-bottom: 8px;
+}
+.Left-Content-Col h4 {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 550;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+  color: var(--SubHeading-Color);
+}
+.Left-Content-Col p {
+  margin: 15px 0;
+  line-height: 25px;
+  color: #616060;
+}
+.Left-Content-Col a {
+  text-transform: capitalize;
+  text-decoration: none;
+  display: inline-block;
+  background: var(--Button-Color);
+  color: var(--Background-Color);
+  padding: 12px 38px;
+  border-radius: 3px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+.Right-Content-Col {
+  float: right;
+  width: 45%;
+}
+.Right-Content-Col img {
+  width: 100%;
+}
+
+.Middle-Showcase-Row {
+  background-image: url(../Assets/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 45px 0;
+}
+.Left-Content-Col-M {
+  float: left;
+  width: 50%;
+}
+.Left-Content-Col-M img {
+  width: 100%;
+}
+.Right-Content-Col-M {
+  float: right;
+  width: 46%;
+  margin-left: 40px;
+  margin-top: 110px;
+}
+.Right-Content-Col-M h1 {
+  text-transform: capitalize;
+  font-size: 45px;
+  color: var(--Heading-Color);
+}
+.Right-Content-Col-M h4 {
+  text-transform: uppercase;
+  color: var(--SubHeading-Color);
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin: 2px 0;
+}
+.Right-Content-Col-M p {
+  margin: 25px 0px;
+  line-height: 25px;
+  color: #616060;
+}
+.Right-Content-Col-M a {
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--Button-Color);
+  color: var(--Background-Color);
+  padding: 12px 25px;
+  display: inline-block;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.Experience-Row {
+  background-image: url(../Assets/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.Content-Box {
+  overflow: hidden;
+  padding: 20px 20px;
+}
+.Content-Title {
+  text-align: center;
+  padding: 50px;
+}
+.Content-Title h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: var(--Heading-Color);
+  margin-bottom: 4px;
+}
+.Content-Title .Bar {
+  height: 3px;
+  background: var(--Button-Color);
+  margin: 0 auto;
+  width: 80px;
+}
+.Left-Content-Col-E {
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+  min-height: 280px;
+  padding: 20px 35px;
+  box-sizing: border-box;
+  background: var(--Background-Color);
+  box-shadow: 8px 8px 10px #acacac;
+  border-left: 5px solid;
+  border-image: linear-gradient(180deg, salmon, tomato);
+  border-image-slice: 1;
+}
+.Right-Content-Col-E {
+  float: right;
+  width: 45%;
+  margin-left: 5%;
+  min-height: 280px;
+  padding: 20px 35px;
+  box-sizing: border-box;
+  background: var(--Background-Color);
+  box-shadow: 8px 8px 10px#acacac;
+  border-left: 5px solid;
+  border-image: linear-gradient(180deg, #ffcb1b, #ff9e33);
+  border-image-slice: 1;
+}
+.Left-Content-Col-E h1,
+.Right-Content-Col-E h1 {
+  text-transform: capitalize;
+  font-size: 32px;
+  color: var(--Heading-Color);
+  margin: 15px 0;
+}
+.Left-Content-Col-E h4,
+.Right-Content-Col-E h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: var(--Button-Color);
+}
+.Left-Content-Col-E p,
+.Right-Content-Col-E p {
+  margin: 15px 0;
+  line-height: 22px;
+  color: #616060;
+}
+footer {
+  background: var(--Background-Color);
+  padding: 80px 0 20px 0;
+  text-align: center;
+}
+footer p {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: #616060;
+  font-size: 15px;
+}

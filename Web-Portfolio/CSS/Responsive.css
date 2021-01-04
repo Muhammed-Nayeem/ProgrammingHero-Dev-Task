@@ -1,0 +1,158 @@
+@media only screen and (min-width: 992px) and (max-width: 1280px)
+{
+  .Container
+  {
+    width: 970px;
+  }
+  .Left-Content-Col 
+  {
+    width: 57%;
+    margin: 60px 20px 0 0;
+  }
+  .Right-Content-Col 
+  {
+    width: 40%;
+  }
+  .Left-Content-Col-M 
+  {
+    width: 49%;
+  }
+  .Left-Content-Col-E
+  {
+    width: 48%;
+    margin-right: 2%;
+    padding: 20px 25px;
+  }
+  .Right-Content-Col-E 
+  {
+    width: 48%;
+    margin-left: 2%;
+    padding: 20px 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+  .Container
+  {
+    width: 750px;
+  }
+  .Left-Content-Col 
+  {
+    width: 54%;
+    margin: 10px 15px 0 0;
+  }
+  .Left-Content-Col h2 
+  {
+    font-size: 35px;
+  }
+  .Left-Content-Col h1 
+  {
+    font-size: 33px;
+  }
+  .Left-Content-Col h4 
+  {
+    margin-bottom: 10px;
+  }
+  .Right-Content-Col 
+  {
+    width: 44%;
+  }
+  .Left-Content-Col-M 
+  {
+    width: 45%;
+  }
+  .Right-Content-Col-M 
+  {
+    width: 53%;
+    margin-left: 15px;
+    margin-top: 0px;
+  }
+  .Left-Content-Col-E 
+  {
+    width: 48%;
+    margin-right: 2%;
+    padding: 20px 3px;
+  }
+  .Right-Content-Col-E 
+  {
+    width: 48%;
+    margin-left: 2%;
+    padding: 20px 3px;
+  }
+}
+
+@media only screen and (max-width: 767px)
+{
+  .Container
+  {
+    width: 320px;
+  }
+  .Left-Content-Col 
+  {
+    width: 100%;
+  }
+  .Left-Content-Col h2 
+  {
+    font-size: 25px;
+  }
+  .Left-Content-Col h1 
+  {
+    font-size: 26px;
+  }
+  .Right-Content-Col 
+  {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .Left-Content-Col-M 
+  {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .Right-Content-Col-M 
+  {
+    width: 100%;
+  }
+  .Right-Content-Col-M h1 
+  {
+    font-size: 30px;
+  }
+  .Content-Title h1 
+  {
+    font-size: 30px;
+  }
+  .Left-Content-Col-E 
+  {
+    width: 100%;
+    padding: 10px 8px;
+  }
+  .Right-Content-Col-E 
+  {
+    width: 100%;
+    padding: 10px 8px;
+    margin-top: 30px;
+  }
+  .Left-Content-Col-E h1,
+  .Right-Content-Col-E h1 
+  {
+    font-size: 26px;
+  }
+  .Left-Content-Col-E h4,
+  .Right-Content-Col-E h4 
+  {
+    font-size: 12px;
+  }
+  footer p 
+  {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+  .Container
+  {
+    width: 450px;
+  }
+}
