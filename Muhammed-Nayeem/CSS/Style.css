@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+.Container-Box {
+  width: 1140px;
+  margin: 0 auto;
+}
+.Header-Area {
+  background: #fffdfde8;
+  height: 28px;
+  padding: 15px 0px;
+}
+.Logo-Area {
+  float: left;
+  width: 21%;
+  margin-right: 9%;
+}
+.Logo-Area h3 {
+  text-transform: capitalize;
+  color: #5d5f78;
+  font-size: 22px;
+  font-weight: 500;
+}
+.Menu-Area {
+  float: right;
+  margin-top: 5px;
+  width: 70%;
+}
+.Menu-Area ul {
+  list-style: none;
+  text-align: right;
+}
+.Menu-Area ul li {
+  display: inline-block;
+}
+.Menu-Area ul li a {
+  text-transform: capitalize;
+  color: #5d5f78;
+  font-size: 16px;
+  font-weight: 490;
+  display: block;
+  margin: 0px 0px 0px 30px;
+}
+.Intro-Banner,
+.About-Banner {
+  background: #fffefee8;
+  height: 550px;
+  padding: 40px 0;
+}
+.Intro-Content {
+  float: left;
+  width: 50%;
+  margin-right: 5%;
+  margin-top: 10%;
+}
+.Intro-Content h1 {
+  text-transform: uppercase;
+  color: #363958;
+  font-size: 40px;
+}
+.Intro-Content span {
+  color: #f76760;
+}
+.Intro-Content p {
+  text-transform: capitalize;
+  margin: 20px 0;
+  color: #6e6e6e;
+}
+.Intro-Content .Btn,
+.About-Content .Btn,
+.Chat .Chat-Btn {
+  background: linear-gradient(45deg, #f45f60, #fc7662);
+  border: 0px;
+  color: #ffffff;
+  padding: 12px 35px;
+  border-radius: 3px;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.Intro-Content-Image {
+  float: right;
+  width: 45%;
+}
+.Intro-Content-Image img,
+.About-Image img {
+  width: 100%;
+}
+.About-Image {
+  float: left;
+  width: 40%;
+  margin-right: 10%;
+}
+.About-Content {
+  float: right;
+  width: 50%;
+  margin-top: 10%;
+}
+.About-Content h1 {
+  text-transform: uppercase;
+  color: #363958;
+  font-size: 35px;
+}
+.About-Content .P-One {
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #bbbbb9;
+}
+.About-Content .P-Two {
+  margin: 25px 0;
+  color: #6e6e6e;
+}
+.My-Projects,
+.Services-Section {
+  background: #f8f9fc;
+  padding: 50px 0px;
+  height: 550px;
+}
+.Title {
+  margin: 0px 0px 60px 0px;
+}
+.Title h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #363958;
+}
+.Title span {
+  color: #f45f60;
+}
+.Single-Projects,
+.Single-Services {
+  float: left;
+  width: 320px;
+  padding: 30px 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  margin: 20px 30px 0px 0px;
+  box-shadow: 8px 8px 6px #dfdcdcf3;
+}
+#Last-Project,
+#Last-Services {
+  margin-right: 0px;
+}
+.Single-Projects img,
+.Single-Services img {
+  width: 100%;
+}
+.Details {
+  margin: 30px 0px 8px 0px;
+}
+.Details h4 {
+  font-size: 18px;
+  color: #3e415f;
+  margin-bottom: 8px;
+}
+.Details p {
+  font-size: 16px;
+  color: #6e6e6e;
+}
+.Bottom-Banner {
+  background: #fffdfde8;
+  height: 400px;
+  padding: 50px 0px;
+}
+.Image-Box {
+  background-image: url(../Assets/Bottom-Banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 91%;
+  padding: 141px 52px;
+  margin: 50px 0px;
+}
+.Work-Inq {
+  float: left;
+  width: 50%;
+  margin-top: -18px;
+}
+.Work-Inq h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #ffffff;
+}
+.Chat {
+  float: right;
+  width: 50%;
+  text-align: right;
+  margin-top: -18px;
+}
+footer {
+  text-align: center;
+  padding: 30px 0px;
+}
+footer h4 {
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #6e6e6e;
+  margin-bottom: 15px;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  display: inline-block;
+}
+footer ul li a {
+  display: block;
+  margin: 15px;
+  text-decoration: none;
+}
+footer ul li img {
+  height: 30px;
+  width: 30px;
+}
+footer p {
+  color: #6e6e6e;
+  text-transform: capitalize;
+  font-size: 16px;
+}
