@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html
+{
+  scroll-behavior: smooth;
+}
+/*Google fonts Link*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+/*Some Variables*/
+:root {
+  --Primary-Color: #f8f9fa;
+}
+
+/*CSS Common Code*/
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  background: #f8f9fa;
+}
+.section-title {
+  margin-bottom: 35px;
+  text-align: center;
+}
+.section-title h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+}
+.bar {
+  width: 60px;
+  height: 2px;
+  background: #ff136f;
+  margin: 0 auto;
+}
+
+/*Header CSS*/
+.header-area {
+  background: var(--Primary-Color);
+}
+
+/*Banner CSS*/
+.banner-area {
+  background: #feeae9;
+  padding: 50px 0;
+}
+.carousel-item {
+  padding: 0 50px;
+}
+.price {
+  color: #ff136f;
+}
+.buy-now-button {
+  padding: 10px 40px;
+  border: 0;
+  border-radius: 5px;
+  background: crimson;
+  color: #ffff;
+  cursor: pointer;
+}
+
+/*Categories CSS*/
+.catagories-area {
+  padding: 50px 0;
+}
+.single-category {
+  padding: 10px 0;
+  border-radius: 10px;
+}
+.single-category img {
+  max-width: 100px;
+}
+.single-category h1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/*Shoes CSS*/
+.shoes-area {
+  padding: 50px 0;
+}
+
+/*Subscribe CSS*/
+.subscribe-area {
+  background: #feeae9;
+  padding: 50px 0;
+}
+.section-title p {
+  margin-top: 10px;
+}
+.contact-form input[type="text"] {
+  width: 400px;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 5px;
+}
+.contact-form input[type="submit"] {
+  text-transform: capitalize;
+  background: skyblue;
+  padding: 10px 35px;
+  border: 0;
+  border-radius: 8px;
+  margin-left: -40px;
+  color: #fff;
+}
+
+/*Footer CSS*/
+.footer-area {
+  background: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-area p {
+  text-transform: uppercase;
+  color: #333333;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+/*Custom Responsive Code*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+@media only screen and (max-width: 767px) {
+  .single-category {
+    margin-top: 20px;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+  .contact-form input[type="text"] {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contact-form input[type="submit"] {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
