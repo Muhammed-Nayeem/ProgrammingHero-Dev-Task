@@ -1,0 +1,96 @@
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+  .bg {
+    background-position-x: 330px;
+  }
+  .banner-text h1, .banner-text .H-1-diff {
+    font-size: 49px;
+  }
+  .single-product .card {
+    padding: 8px;
+  }
+  .product-btn {
+    padding: 10px 8px;
+  }
+  .cd-b h5 {
+    font-size: 18px;
+  }
+  .single-product .card {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header-area .navbar-brand img {
+    max-width: 250px;
+  }
+  .bg {
+    background-position-x: 335px;
+  }
+  .banner-text h1, .banner-text .H-1-diff {
+    font-size: 35px;
+  }
+  .banner-text p {
+    font-size: 18px
+  }
+  .Btn {
+    padding: 8px 8px;
+  }
+  .section-title h4 {
+    font-size: 2rem;
+  }
+  .single-product .card,
+  .single-future {
+    margin-bottom: 30px;
+  }
+  .main-row {
+    flex-direction: column;
+  }
+  .main-col {
+    width: 100%;
+  }
+  .single-about {
+    padding: 6px 6px;
+  }
+  .single-about .content-box h1 {
+    font-size: 20px;
+  }
+  .single-about .content-box p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header-area .navbar-brand img {
+    max-width: 170px;
+  }
+  .banner-text h1, .banner-text .H-1-diff {
+    font-size: 32px;
+  }
+  .banner-text p {
+    font-size: 18px;
+  }
+  .section-title h4 {
+    font-size: 1.9rem;
+  }
+  .single-product .card {
+    margin-bottom: 30px;
+  }
+  .product-btn {
+    padding: 14px 10px;
+  }
+  .main-row {
+    flex-flow: column-reverse;
+  }
+  .contact-form input[type="text"] {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .contact-form input[type="submit"] {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
