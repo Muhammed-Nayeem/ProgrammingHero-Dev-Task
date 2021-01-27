@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pioneer Bank</title>
+    <link rel="stylesheet" href="Assets-File/CSS-File/all.min.css">
+    <link rel="stylesheet" href="Assets-File/CSS-File/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets-File/CSS-File/Custom.css">
+    <link rel="stylesheet" href="Assets-File/CSS-File/Responsive.css">
+  </head>
+
+  <body>
+    <header class="header-area">
+      <div class="container">
+        <div class="branding">
+          <a href="">
+            <h4>pioneer bank</h4>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="login-area" id="login-form-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-title">
+              <h1 class="text-success">welcome to pioneer bank</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ipsum quidem eaque tenetur dolorem totam amet iste aliquid quos corporis.</p>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="login-form">
+              <h4>login</h4>
+              <input type="email" class="form-control mb-4" placeholder="Enter Email">
+              <input type="password" class="form-control mb-4" placeholder="Enter Password">
+              <button class="btn btn-success" id="login-btn">Enter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="transaction-area" id="transaction-div">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-title">
+              <h1 class="text-success">your transaction area</h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, delectus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-md-4">
+            <div class="single-status deposit">
+              <h5>deposit</h5>
+              <h2>$<span id="currentDeposit">00</span></h2>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="single-status withdraw">
+              <h5>withdraw</h5>
+              <h2>$<span id="currentWithdraw">00</span></h2>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="single-status balance">
+              <h5>balance</h5>
+              <h2>$<span id="currentBalance">1240</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <div class="login-form">
+              <h4>deposit money</h4>
+               <input id="depositAmount" type="text" class="form-control mb-3" placeholder="$ amount you want to deposit">
+              <button id="depositButton" class="btn btn-success">Deposit</button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="login-form">
+              <h4>withdraw money</h4>
+              <input id="withdrawAmount" type="text" class="form-control mb-3"  placeholder="$ amount you want to withdraw">
+              <button id="withdrawButton" class="btn btn-success">Withdraw</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--JavaScript File Added-->
+    <script src="Assets-File/Js-File/popper.min.js"></script>
+    <script src="Assets-File/Js-File/bootstrap.min.js"></script>
+    <script src="Assets-File/Js-File/app.js"></script>
+  </body>
+</html>
