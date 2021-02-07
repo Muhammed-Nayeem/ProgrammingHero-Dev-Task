@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+h3 {
+  font-size: 22px!important;
+}
+body
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #3B2D64;
+  background: #EDD263;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.header-area {
+  padding: 20px 0;
+}
+.header-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-area a h4 {
+  font-size: 20px!important;
+  color: #3B2D64;
+}
+.menu-area ul {
+  display: flex;
+}
+.menu-area ul li a{
+  color: #3B2D64;
+  font-size: 18px;
+  margin: 0 10px;
+  font-weight: 600;
+}
+.foods-area {
+  margin: 60px 0;
+}
+.food-input-field {
+  display: flex;
+  justify-content: center;
+}
+.food-input-field input[type="text"] {
+  padding: 12px 15px;
+  width: 30%;
+  border-radius: 5px;
+  border: 1px solid #3B2D64;
+  outline: none;
+  color: #333;
+  font-size: 16px;
+}
+.food-input-field button {
+  padding: 0 20px;
+  border-radius: 5px;
+  border: 0px;
+  outline: none;
+  background: #3B2D64;
+  color: #fff;
+  font-size: 16px;
+  margin-left: -10px;
+  cursor: pointer;
+}
+.food-gallery h2
+{
+  text-align: center;
+  margin-top: 30px;
+}
+#Error-Msg {
+  display: none;
+}
+#foods-page {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.single-food {
+  flex-basis: 30%;
+  margin-bottom: 30px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+}
+.single-food .foodMeal img {
+  width: 100%;
+  border-radius: 5px;
+}
+.single-food .foodMeal .foodName {
+  text-align: center;
+  padding: 15px 0 15px 0;
+}
+.modal-body img {
+  width: 100%;
+}
